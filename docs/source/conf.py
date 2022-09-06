@@ -34,8 +34,6 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 exclude_patterns = []
 
-language = 'HDL'
-
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 # -- Options for HTML output
