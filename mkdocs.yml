@@ -2,7 +2,6 @@ site_name: My Docs
 site_url: https://github.com/jomidokunMain/FPGA_Projectmain.git
 nav:
     - Home: index.md
-    - Project: Vivdao/data_selector_verilog/data_selector.md
-    - About: README.md
+
 
 theme: readthedocs
