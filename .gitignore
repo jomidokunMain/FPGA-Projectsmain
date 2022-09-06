@@ -2,8 +2,8 @@
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
 site
-vivado_14164.backup.jou/
-vivado_14164.backup.log/
+vivado_14164.backup.jou
+vivado_14164.backup.log
 vivado.jou
 vivado.log
 
