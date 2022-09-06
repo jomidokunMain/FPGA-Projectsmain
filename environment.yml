@@ -7,4 +7,4 @@ channels:
 dependencies:
   - pip:
     - myst-parser
-prefix: /home/jesudara/anaconda3/envs/MLDL
+path: /home/jesudara/anaconda3/envs/MLDL
