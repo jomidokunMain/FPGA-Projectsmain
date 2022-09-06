@@ -1,6 +1,0 @@
-name: MLDL
-path: /home/jesudara/anaconda3/envs/MLDL
-#dependencies:
-#  - pip:
-#    - myst-parser
-Required: true
