@@ -1,1 +1,0 @@
--wto "fb9a17487e5745caa03fcac576ae0e18" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "test_mySWLED_behav" "xil_defaultlib.test_mySWLED" "xil_defaultlib.glbl" -log "elaborate.log" 

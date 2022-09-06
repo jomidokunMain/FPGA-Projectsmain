@@ -1,5 +1,0 @@
-NET "SEL" LOC = "V1" | PULLDOWN;
-NET "A" LOC = "R2" | PULLDOWN;
-NET "B" LOC = "T1" | PULLDOWN;
-
-NET "Q" LOC = "L1";
