@@ -1,7 +1,7 @@
 site_name: My Docs
 site_url: https://github.com/jomidokunMain/FPGA_Projectmain.git
 nav:
-    - Home: index.md
+    - Home: /home/jesudara/Desktop/FPGA_Project/FPGA_Projectmain/index.md
     - About: about.md
 
 
