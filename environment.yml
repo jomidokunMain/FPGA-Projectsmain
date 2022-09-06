@@ -1,0 +1,6 @@
+name: MLDL
+channels:
+
+dependencies:
+  - myst-parser  
+prefix: /home/jesudara/anaconda3/envs/oscar
