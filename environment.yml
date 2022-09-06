@@ -1,10 +1,4 @@
 name: MLDL
-channels:
-  - jdh88
-  - menpo
-  - conda-forge
-  - defaults
-dependencies:
-  - pip:
-    - myst-parser
+
 path: /home/jesudara/anaconda3/envs/MLDL
+Required: true
