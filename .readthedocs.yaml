@@ -1,4 +1,12 @@
 version: 2
 
-conda:
-  environment: environment.yml
+python:
+  version: "3.7"
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
+        - myst-parser
+    - method: setuptools
+      path: package
