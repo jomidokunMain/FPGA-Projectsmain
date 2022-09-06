@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Aug 20 00:28:39 2022
+# Process ID: 14164
+# Current directory: /home/jesudara/Desktop/FPGA_projects
+# Command line: vivado
+# Log file: /home/jesudara/Desktop/FPGA_projects/vivado.log
+# Journal file: /home/jesudara/Desktop/FPGA_projects/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project project_2 /home/jesudara/Desktop/FPGA_projects/Vivdao/project_2 -part xc7a35tcpg236-1
+set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
+file mkdir /home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.srcs/sources_1/new
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.srcs/sources_1/new/mySWLED.v w ]
+add_files /home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.srcs/sources_1/new/mySWLED.v
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+file mkdir /home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.srcs/sim_1/new/test_mySWLED.v w ]
+add_files -fileset sim_1 /home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.srcs/sim_1/new/test_mySWLED.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source test_mySWLED.tcl
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list LED]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list SW]]
+place_ports SW V17
+place_ports LED L1
+file mkdir /home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.srcs/constrs_1/new
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.srcs/constrs_1/new/swledconstraint.xdc w ]
+add_files -fileset constrs_1 /home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.srcs/constrs_1/new/swledconstraint.xdc
+set_property target_constrs_file /home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.srcs/constrs_1/new/swledconstraint.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.runs/impl_1/mySWLED.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.runs/impl_1/mySWLED.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.runs/impl_1/mySWLED.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/project_2/project_2.runs/impl_1/mySWLED.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+refresh_design
+close_sim

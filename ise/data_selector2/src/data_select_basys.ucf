@@ -1,0 +1,5 @@
+NET "SEL" LOC = "V1" | PULLUP;
+NET "A" LOC = "R2" | PULLUP;
+NET "B" LOC = "T1" | PULLUP;
+
+NET "Q" LOC = "L1";

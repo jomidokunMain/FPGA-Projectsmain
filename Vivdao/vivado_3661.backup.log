@@ -1,0 +1,366 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Aug 26 18:07:45 2022
+# Process ID: 3661
+# Current directory: /home/jesudara/Desktop/FPGA_projects/Vivdao
+# Command line: vivado
+# Log file: /home/jesudara/Desktop/FPGA_projects/Vivdao/vivado.log
+# Journal file: /home/jesudara/Desktop/FPGA_projects/Vivdao/vivado.jou
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+create_project data_selector_verilog /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog -part xc7a35tcpg236-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'.
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 6733.875 ; gain = 88.742 ; free physical = 2437 ; free virtual = 5342
+set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
+file mkdir /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/sources_1/new
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/sources_1/new/data_selector1.v w ]
+add_files /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/sources_1/new/data_selector1.v
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Fri Aug 26 19:08:55 2022] Launched synth_1...
+Run output will be captured here: /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Aug 26 19:10:00 2022] Launched impl_1...
+Run output will be captured here: /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 7057.191 ; gain = 0.000 ; free physical = 1598 ; free virtual = 4867
+Restored from archive | CPU: 0.010000 secs | Memory: 0.021469 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 7057.191 ; gain = 0.000 ; free physical = 1598 ; free virtual = 4867
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7057.191 ; gain = 0.000 ; free physical = 1599 ; free virtual = 4869
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 7248.594 ; gain = 396.535 ; free physical = 1492 ; free virtual = 4764
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'data_selector1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj data_selector1_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/sources_1/new/data_selector1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_selector1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim'
+xelab -wto 889b803e4bab404d93cefb7e9ff20680 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot data_selector1_behav xil_defaultlib.data_selector1 xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto 889b803e4bab404d93cefb7e9ff20680 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot data_selector1_behav xil_defaultlib.data_selector1 xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.data_selector1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot data_selector1_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim/xsim.dir/data_selector1_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim/xsim.dir/data_selector1_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Aug 26 19:13:41 2022. For additional details about this file, please refer to the WebTalk help file at /tools/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Aug 26 19:13:41 2022...
+run_program: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 7551.430 ; gain = 0.000 ; free physical = 972 ; free virtual = 4333
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "data_selector1_behav -key {Behavioral:sim_1:Functional:data_selector1} -tclbatch {data_selector1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source data_selector1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'data_selector1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 7663.230 ; gain = 111.801 ; free physical = 908 ; free virtual = 4283
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: data_selector1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 7753.609 ; gain = 90.379 ; free physical = 746 ; free virtual = 4124
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'data_selector1' [/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/sources_1/new/data_selector1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'data_selector1' (1#1) [/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/sources_1/new/data_selector1.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 7781.547 ; gain = 118.316 ; free physical = 776 ; free virtual = 4154
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 7799.359 ; gain = 136.129 ; free physical = 772 ; free virtual = 4151
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 7799.359 ; gain = 136.129 ; free physical = 772 ; free virtual = 4151
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7857.223 ; gain = 0.000 ; free physical = 703 ; free virtual = 4080
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 7912.629 ; gain = 249.398 ; free physical = 655 ; free virtual = 4034
+5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 7912.629 ; gain = 249.398 ; free physical = 655 ; free virtual = 4034
+file mkdir /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1
+file mkdir /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selector1.xdc w ]
+add_files -fileset constrs_1 /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selector1.xdc
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selector1.xdc]
+Finished Parsing XDC File [/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selector1.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+export_ip_user_files -of_objects  [get_files /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selector1.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selector1.xdc
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7960.496 ; gain = 0.000 ; free physical = 335 ; free virtual = 2687
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+file mkdir /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/sim_1/new/test_dataSEL.v w ]
+add_files -fileset sim_1 /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/sim_1/new/test_dataSEL.v
+update_compile_order -fileset sim_1
+open_project /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector/data_selector.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+current_project data_selector_verilog
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Aug 26 19:39:14 2022] Launched synth_1...
+Run output will be captured here: /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.runs/synth_1/runme.log
+close_design
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_dataSel' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_dataSel_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/sim_1/new/test_dataSEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_dataSel
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim'
+xelab -wto 889b803e4bab404d93cefb7e9ff20680 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_dataSel_behav xil_defaultlib.tb_dataSel xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto 889b803e4bab404d93cefb7e9ff20680 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_dataSel_behav xil_defaultlib.tb_dataSel xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.data_selector1
+Compiling module xil_defaultlib.tb_dataSel
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_dataSel_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim/xsim.dir/tb_dataSel_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim/xsim.dir/tb_dataSel_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Aug 26 19:40:47 2022. For additional details about this file, please refer to the WebTalk help file at /tools/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Aug 26 19:40:47 2022...
+run_program: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 8185.594 ; gain = 0.000 ; free physical = 740 ; free virtual = 2147
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_dataSel_behav -key {Behavioral:sim_1:Functional:tb_dataSel} -tclbatch {tb_dataSel.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source tb_dataSel.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_dataSel_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 8297.461 ; gain = 111.867 ; free physical = 731 ; free virtual = 2145
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 8297.461 ; gain = 0.000 ; free physical = 760 ; free virtual = 2400
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8297.461 ; gain = 0.000 ; free physical = 782 ; free virtual = 2492
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+set_property IOSTANDARD LVCMOS33 [get_ports [list A]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list B]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list Q]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list SEL]]
+place_ports A R2
+place_ports B T1
+place_ports Q U1
+startgroup
+set_property package_pin "" [get_ports [list  Q]]
+place_ports SEL U1
+endgroup
+place_ports Q W3
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selcon.xdc w ]
+add_files -fileset constrs_1 /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selcon.xdc
+set_property target_constrs_file /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selcon.xdc [current_fileset -constrset]
+save_constraints -force
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selcon.xdc]
+Finished Parsing XDC File [/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selcon.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 8297.461 ; gain = 0.000 ; free physical = 549 ; free virtual = 2367
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Aug 26 20:07:36 2022] Launched synth_1...
+Run output will be captured here: /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.runs/synth_1/runme.log
+close_design
+launch_runs impl_1 -jobs 4
+[Fri Aug 26 20:09:03 2022] Launched impl_1...
+Run output will be captured here: /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.runs/impl_1/runme.log
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selcon.xdc]
+Finished Parsing XDC File [/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.srcs/constrs_1/new/data_selcon.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 8297.461 ; gain = 0.000 ; free physical = 849 ; free virtual = 2193
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug 26 20:11:09 2022] Launched impl_1...
+Run output will be captured here: /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:06:40
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B5A0A3A
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.runs/impl_1/data_selector1.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.runs/impl_1/data_selector1.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_project
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Fri Aug 26 20:15:05 2022. For additional details about this file, please refer to the WebTalk help file at /tools/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Aug 26 20:15:05 2022...
