@@ -1,17 +1,7 @@
-site_name: ECE 5831 at UM-D
-theme: readthedocs
-
-markdown_extensions:
-    - toc:
-        permalink: "#"
-        baselevel: 2
-        separator: "_"
-
-plugins:
-    - pdf-export:
-        verbose: true
-        media_type: print
-        enabled_if_env: ENABLE_PDF_EXPORT   
-
+site_name: My Docs
+site_url: https://github.com/jomidokunMain/FPGA_Projectmain.git
 nav:
-        - Home: README.md
+    - Home: index.md
+    - About: README.md
+
+theme: readthedocs
