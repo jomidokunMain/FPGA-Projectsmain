@@ -3,4 +3,4 @@ channels:
 
 dependencies:
   - myst-parser  
-prefix: /home/jesudara/anaconda3/envs/oscar
+prefix: /home/jesudara/anaconda3/envs/MLDL
