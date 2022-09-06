@@ -1,7 +1,7 @@
 # Welcome to FPGA Projects Documentation
 
 
-![](doc/img/Digilent_Basys3.jpg)
+![](/doc/img/Digilent_Basys3.jpg)
 
 
 ## Projects
