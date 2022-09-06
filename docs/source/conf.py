@@ -11,6 +11,7 @@ copyright = '2022, Jesudara Omidokun'
 author = 'Jesudara Omidokun'
 release = '0.1'
 
+import myst_parser
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
