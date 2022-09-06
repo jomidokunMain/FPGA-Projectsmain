@@ -1,1 +1,1 @@
-myst-parser
+pip install myst-parser
