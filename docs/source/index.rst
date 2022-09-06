@@ -8,7 +8,7 @@ Welcome to FPGA Project's documentation!
 
 .. toctree::
 
-   README.md
+   README
 
 
 
