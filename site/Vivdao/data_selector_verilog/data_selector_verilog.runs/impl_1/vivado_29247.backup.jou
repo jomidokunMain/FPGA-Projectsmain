@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Aug 26 20:09:06 2022
+# Process ID: 29247
+# Current directory: /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.runs/impl_1
+# Command line: vivado -log data_selector1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source data_selector1.tcl -notrace
+# Log file: /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.runs/impl_1/data_selector1.vdi
+# Journal file: /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source data_selector1.tcl -notrace

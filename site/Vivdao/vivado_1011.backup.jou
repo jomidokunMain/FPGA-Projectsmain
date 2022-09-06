@@ -1,0 +1,236 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Aug 26 20:15:39 2022
+# Process ID: 1011
+# Current directory: /home/jesudara/Desktop/FPGA_projects/Vivdao
+# Command line: vivado
+# Log file: /home/jesudara/Desktop/FPGA_projects/Vivdao/vivado.log
+# Journal file: /home/jesudara/Desktop/FPGA_projects/Vivdao/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project counter_verilog /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog -part xc7a35tcpg236-1
+set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
+file mkdir /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/sources_1/new
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/sources_1/new/counter.v w ]
+add_files /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/sources_1/new/counter.v
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+file mkdir /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/sim_1/new/test_count.v w ]
+add_files -fileset sim_1 /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/sim_1/new/test_count.v
+update_compile_order -fileset sim_1
+open_project /home/jesudara/Desktop/FPGA_projects/Vivdao/data_selector_verilog/data_selector_verilog.xpr
+update_compile_order -fileset sources_1
+current_project counter_verilog
+update_compile_order -fileset sim_1
+launch_simulation
+source test_count.tcl
+close_sim
+launch_simulation
+source test_count.tcl
+close_sim
+launch_simulation
+source test_count.tcl
+close_sim
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list Clock]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Q[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Q[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Q[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Q[0]}]]
+place_ports Clock T17
+place_ports {Q[0]} L1
+place_ports {Q[1]} P1
+place_ports {Q[2]} N3
+set_property package_pin "" [get_ports [list  {Q[3]}]]
+place_ports {Q[3]} P3
+file mkdir /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_cont.xdc w ]
+add_files -fileset constrs_1 /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_cont.xdc
+set_property target_constrs_file /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_cont.xdc [current_fileset -constrset]
+save_constraints -force
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_cont.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_cont.xdc
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_project
+close_project
+open_project /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list Clock]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Q[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Q[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Q[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Q[0]}]]
+set_property SLEW SLOW [get_ports [list {Q[3]}]]
+set_property SLEW SLOW [get_ports [list {Q[2]}]]
+set_property PULLTYPE NONE [get_ports [list Clock]]
+place_ports Clock R2
+place_ports {Q[3]} L1
+place_ports {Q[2]} P1
+place_ports {Q[1]} N3
+place_ports {Q[0]} P3
+set_property PULLTYPE PULLUP [get_ports [list Clock]]
+set_property OFFCHIP_TERM NONE [get_ports [list Clock]]
+set_property DRIVE 12 [get_ports [list {Q[3]}]]
+set_property OFFCHIP_TERM NONE [get_ports [list Clock]]
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_con.xdc w ]
+add_files -fileset constrs_1 /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_con.xdc
+set_property target_constrs_file /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_con.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_con.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_con.xdc
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list Clock]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Q[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Q[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Q[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Q[0]}]]
+set_property PULLTYPE PULLUP [get_ports [list Clock]]
+set_property OFFCHIP_TERM NONE [get_ports [list Clock]]
+place_ports Clock R2
+place_ports {Q[3]} L1
+place_ports {Q[2]} P1
+place_ports {Q[1]} N3
+place_ports {Q[0]} P3
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_con.xdc w ]
+add_files -fileset constrs_1 /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_con.xdc
+set_property target_constrs_file /home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.srcs/constrs_1/new/counter_con.xdc [current_fileset -constrset]
+save_constraints -force
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_hw
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/home/jesudara/Desktop/FPGA_projects/Vivdao/counter_verilog/counter_verilog.runs/impl_1/counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Aug 27 23:12:43 2022
+# Process ID: 922
+# Current directory: /home/jesudara/Desktop/FPGA_projects/Vivdao
+# Command line: vivado
+# Log file: /home/jesudara/Desktop/FPGA_projects/Vivdao/vivado.log
+# Journal file: /home/jesudara/Desktop/FPGA_projects/Vivdao/vivado.jou
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/jesudara/.Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+create_project decoder_7_seg /home/jesudara/Desktop/FPGA_projects/Vivdao/decoder_7_seg -part xc7a35tcpg236-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'.
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 6634.574 ; gain = 108.758 ; free physical = 7644 ; free virtual = 10938
+set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
+file mkdir /home/jesudara/Desktop/FPGA_projects/Vivdao/decoder_7_seg/decoder_7_seg.srcs/sources_1/new
+close [ open /home/jesudara/Desktop/FPGA_projects/Vivdao/decoder_7_seg/decoder_7_seg.srcs/sources_1/new/decoder_seg.v w ]
+add_files /home/jesudara/Desktop/FPGA_projects/Vivdao/decoder_7_seg/decoder_7_seg.srcs/sources_1/new/decoder_seg.v
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Aug 28 05:51:56 2022...
