@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Apr 30 23:23:46 2023
+# Process ID: 17284
+# Current directory: C:/Users/jesud/Desktop/FPGA_Project/counter_verilog/counter_verilog.runs/impl_1
+# Command line: vivado.exe -log counter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source counter.tcl -notrace
+# Log file: C:/Users/jesud/Desktop/FPGA_Project/counter_verilog/counter_verilog.runs/impl_1/counter.vdi
+# Journal file: C:/Users/jesud/Desktop/FPGA_Project/counter_verilog/counter_verilog.runs/impl_1\vivado.jou
+# Running On: DESKTOP-OPG1RP9, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 34204 MB
+#-----------------------------------------------------------
+source counter.tcl -notrace
